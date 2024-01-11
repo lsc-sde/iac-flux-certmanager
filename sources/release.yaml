@@ -26,6 +26,7 @@ spec:
       "kubernetes.io/os": linux
     webhook:
       hostNetwork: true
+      securePort: 10260
       nodeSelector:
         "kubernetes.io/os": linux 
     cainjector:
