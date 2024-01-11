@@ -25,6 +25,7 @@ spec:
     nodeSelector:
       "kubernetes.io/os": linux
     webhook:
+      hostNetwork: true
       nodeSelector:
         "kubernetes.io/os": linux 
     cainjector:
