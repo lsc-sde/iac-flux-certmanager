@@ -3,7 +3,6 @@ Flux configuration for Certificate Manager
 
 ## Developer Guide
 To test the changes, ensure that you are on your developer machine and that the context is set correctly to your local instance please amend the following script to use the target branch:
-[https://cchitcs.blob.core.windows.net/personal/xlscsde.nhs.uk.zip?sp=r&st=2024-01-23T17:28:41Z&se=2024-01-24T01:28:41Z&spr=https&sv=2022-11-02&sr=b&sig=QHJMl9SStQqJyDF%2BkeB4YfodbhXkNLWDs6otnDVJA%2Fs%3D]()
 ```bash
 kubectl config use-context docker-desktop
 kubectl create namespace cert-manager
