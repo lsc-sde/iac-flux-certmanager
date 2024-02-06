@@ -3,3 +3,6 @@ kind: Kustomization
 resources:
   - issuer.yaml
   - trusted-certs
+  - repository.yaml
+  - cert-manager.yaml
+  - trust-manager.yaml
