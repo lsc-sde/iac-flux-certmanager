@@ -9,6 +9,7 @@ spec:
   chart:
     spec:
       chart: trust-manager
+      version: ${trustmanager_chart_version}
       sourceRef:
         kind: HelmRepository
         name: jetstack
