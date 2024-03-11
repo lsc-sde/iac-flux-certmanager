@@ -29,7 +29,7 @@ jobs:
     - sandbox
     with:
       symver: ${{ needs.semver.outputs.GitVersion_SemVer }}
-      directory: iac/flux/github-action-runners
+      directory: iac/flux/certmanager
     secrets: inherit
 
   dev:
