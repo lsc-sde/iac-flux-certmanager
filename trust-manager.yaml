@@ -21,3 +21,6 @@ spec:
   upgrade:
     remediation:
       retries: -1
+  dependsOn:
+    - name: cert-manager
+      namespace: cert-manager
