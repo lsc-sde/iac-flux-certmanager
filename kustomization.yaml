@@ -5,3 +5,4 @@ resources:
   - repository.yaml
   - cert-manager.yaml
   - trust-manager.yaml
+  - networkpolicy.yaml
