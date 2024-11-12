@@ -1,6 +1,7 @@
 ---
 title: FluxCD
 parent: Cert Manager
+grand_parent: Supporting Services
 layout: page
 ---
 
