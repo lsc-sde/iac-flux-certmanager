@@ -13,10 +13,10 @@ This will also install [Trust Manager](https://cert-manager.io/docs/trust/). Tru
 
 ```mermaid
 flowchart LR
-    all([all services]) -->|Ingress ALL| portal[Management Portal] 
-    portal -->|Egress ALL|all
-    portal -->|Egress HTTPS| kubernetes[[Kubernetes API]]
-    portal -->|Egress DNS| coredns
+    all([all services]) -->|Ingress ALL| svc[Cert Manager] 
+    svc -->|Egress ALL|all
+    svc -->|Egress HTTPS| kubernetes[[Kubernetes API]]
+    svc -->|Egress DNS| coredns
 ```
 
 | Direction | Ports/Type | Description |
